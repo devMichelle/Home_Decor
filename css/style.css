@@ -1,11 +1,29 @@
 body {
-  font-family: "Yu Gothic UI", Verdana, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   background-image: url("/images/background.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 100vh;
   background-color: #e2ded9;
+}
+
+.headings--font {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 300;
+}
+
+.font--wght--400 {
+  font-weight: 400;
+}
+
+.font--wght--700 {
+  font-weight: 700;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 .header--container {
@@ -79,7 +97,7 @@ hr {
 
 .main__sale__header h1 {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
   padding-top: 70px;
   text-transform: uppercase;
@@ -127,7 +145,7 @@ hr {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 45px;
   margin: 0;
 }
 
@@ -160,7 +178,7 @@ button {
 
 button:hover {
   border: 2px solid rgba(0, 0, 0, 0.774);
-  background-color: #e2ded9;
+  background-color: white;
   color: black;
   font-weight: bold;
 }
@@ -224,6 +242,10 @@ button:hover {
   text-align: center;
   font-size: 15px;
 }
+
+/* 
+Products Page 
+*/
 
 .main__products__header {
   background-image: linear-gradient(
